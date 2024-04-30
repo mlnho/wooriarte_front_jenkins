@@ -81,7 +81,7 @@ const Header = ({ isLoginState, isLoginHandler }) => {
             onClick={goMainPage}
             style={{ marginLeft: 120, marginTop: 10, marginBottom: 10 }}
           >
-            WOORI ARTE
+            blue / green
           </text>
           {/* 버튼 하나로 변경하기  */}
 
