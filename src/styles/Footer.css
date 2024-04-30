@@ -1,0 +1,14 @@
+.footerContainer {
+  color: white; /* 모든 텍스트 색상을 하얀색으로 설정 */
+  background-color: black;
+  padding: 20px; /* 푸터 패딩 */
+  text-align: left; /* 텍스트 중앙 정렬 */
+}
+
+/* 수평선 스타일 */
+.horizontal-line {
+  width: 100%; /* 너비 전체 */
+  height: 1px; /* 선의 높이 */
+  background-color: white; /* 선의 색상, 하얀색 */
+  margin: 20px 0; /* 상하 마진 설정 */
+}

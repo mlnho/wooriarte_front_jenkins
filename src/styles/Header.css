@@ -1,0 +1,32 @@
+.header {
+  display: flex; /* header 요소를 flex 컨테이너로 만듭니다. */
+  flex-direction: column; /* 자식 요소들을 세로 방향으로 쌓습니다. */
+  align-items: center; /* 세로 방향의 중앙 정렬을 위해 align-items 사용 */
+  width: 100%; /* header의 너비를 부모 요소의 100%로 설정합니다. */
+  cursor: pointer;
+}
+
+.header > div {
+  display: flex; /* div를 flex 컨테이너로 만듭니다. */
+  justify-content: flex-start; /* 자식 요소들을 컨테이너의 시작점 즉, 왼쪽으로 몰아줍니다. */
+  width: 100%; /* div의 너비를 부모 요소의 100%로 설정합니다. */
+}
+
+.header > div > text {
+  order: -1; /* text 요소를 다른 flex 아이템보다 앞에 위치시키기 위해 order 사용 */
+  width: 100%; /* text 요소의 너비를 최대로 설정하여 가운데 정렬 유지 */
+  font-size: 70px; /* 폰트 사이즈 조정 */
+  text-align: center; /* 텍스트를 가운데 정렬합니다. */
+  white-space: nowrap; /* 화면이 줄어도 글자 줄바꿈x */
+}
+
+.header > div > Button {
+  margin-bottom: 10px; /* Button 아래에 마진을 추가하여 여백 조정 */
+  margin-right: 25px;
+}
+body {
+  line-height: 1.7;
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+}
