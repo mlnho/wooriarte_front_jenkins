@@ -81,7 +81,7 @@ const Header = ({ isLoginState, isLoginHandler }) => {
             onClick={goMainPage}
             style={{ marginLeft: 120, marginTop: 10, marginBottom: 10 }}
           >
-            대원이형
+            대원이형API수정됐으면뜸
           </text>
           {/* 버튼 하나로 변경하기  */}
 
